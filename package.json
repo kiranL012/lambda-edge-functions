@@ -1,0 +1,17 @@
+{
+  "name": "sfl-cdn-edge-functions",
+  "version": "1.0.0",
+  "description": "Lambda@Edge functions fronting aem.live for Shriram Finance (SFL)",
+  "main": "src/index.js",
+  "type": "commonjs",
+  "scripts": {
+    "test": "node --test test/index.test.js",
+    "package": "powershell -ExecutionPolicy Bypass -File scripts/package.ps1",
+    "deploy": "powershell -ExecutionPolicy Bypass -File scripts/deploy.ps1"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "UNLICENSED",
+  "private": true
+}

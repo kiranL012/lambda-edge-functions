@@ -1,0 +1,35 @@
+{
+  "Records": [
+    {
+      "cf": {
+        "config": {
+          "distributionId": "EDFDVBD6EXAMPLE"
+        },
+        "request": {
+          "uri": "/",
+          "method": "GET",
+          "querystring": "",
+          "headers": {
+            "cloudfront-viewer-country": [
+              { "key": "CloudFront-Viewer-Country", "value": "IN" }
+            ],
+            "host": [
+              { "key": "Host", "value": "release--sf-stage--hashout-technologies.aem.live" }
+            ]
+          }
+        },
+        "response": {
+          "status": "200",
+          "statusDescription": "OK",
+          "headers": {
+            "content-type": [
+              { "key": "Content-Type", "value": "text/html; charset=utf-8" }
+            ]
+          },
+          "bodyEncoding": "text",
+          "body": "<html><body><main>Home</main></body></html>"
+        }
+      }
+    }
+  ]
+}
